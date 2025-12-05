@@ -5,9 +5,11 @@ public class LRU {
     private int frames;
     private List<Integer> referenceString;
 
+
     public LRU(int frames, List<Integer> referenceString) {
         this.frames = frames;
         this.referenceString = referenceString;
+        System.out.println("Hiyaa!!");
     }
 
     public void run() {
